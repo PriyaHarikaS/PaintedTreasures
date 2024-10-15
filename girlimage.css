@@ -1,0 +1,57 @@
+*{
+    background-color: antiquewhite;
+  }
+  
+
+.head h1{
+    margin-left: 30%;
+    align-items: center;
+    color:rgb(104, 194, 72);
+}
+
+.head img{
+    margin-left: 80%;
+    width: 40px;  /* Adjust the width to your desired size */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+ /* Card Container for 3 Cards */
+ .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  /* Individual Card */
+  .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Image inside the card */
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  /*Information to display*/
+  .card-text{
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+  .card-text p{
+    color: rgba(149, 85, 205, 0.692);
+    font-size: 135%;
+  }
+  .card-text p i{
+    color: rgb(7, 137, 25);
+  }
+  
